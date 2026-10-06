@@ -28,9 +28,15 @@ public class JavaApplication1 {
                 nb+=1;
             }
         }
+    if (nb!=0) {
     float moyenne = (note/nb);
     System.out.println("Moyenne des notes : "+moyenne+" et la somme des notes est de : "+note);
     }
+    else {
+        System.out.println("Il n'y a pas de note !");
+    }
+    }
 }
+
     
 
